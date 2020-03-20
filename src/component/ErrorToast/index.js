@@ -12,7 +12,7 @@ class ErrorToast extends Component {
       </div>
     );
   }
-
+  //Xu3.1415926Qiang
   componentDidMount() {
     this.timer = setTimeout(() => {
       this.props.clearError();
